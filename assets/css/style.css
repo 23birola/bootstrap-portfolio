@@ -141,7 +141,7 @@ justify-content: end;
   grid-template-rows: 200px 100px 100px;
   grid-template-areas: 
   'surf-report surf-report'
-  'phonebook calculator'
+  'horison phonebook'
   'watch run-buddy';
   grid-gap: 16px;
 }
@@ -162,9 +162,9 @@ justify-content: end;
   background-size: 100%;
 }
 
-.calculator {
-  grid-area: calculator;
-  background-image: url(../images/02-portfolio-2.jpg);
+.horison {
+  grid-area: horison;
+  background-image: url(../images/digital-marketing-meeting.jpg);
   object-fit: contain;
   background-position: center;
   background-size: 100%;
@@ -216,7 +216,7 @@ justify-content: end;
 }
 
 .project:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 .project::after {
