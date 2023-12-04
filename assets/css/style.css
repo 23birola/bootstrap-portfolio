@@ -70,7 +70,6 @@ justify-content: end;
   background-image: url("../images/hero1.jpg");
   background-size: cover;
   background-position: center;
-  background-color: var(--main-color);
 }
 
 .hero-wrapper{
@@ -169,6 +168,7 @@ justify-content: end;
   background-position: center;
   background-size: 100%;
 }
+
 
 .watch {
   grid-area: watch;
