@@ -67,7 +67,7 @@ justify-content: end;
 
 .hero-banner {
   width: 100%;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/hero1.jpg");
   background-size: cover;
   background-position: center;
   background-color: var(--main-color);
@@ -76,7 +76,7 @@ justify-content: end;
 .hero-wrapper{
   background-color: var(--main-color);
   border-radius: 30px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .hero {
@@ -227,7 +227,8 @@ justify-content: end;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(68, 88, 119, 0.7);
+  /* background-color: rgba(68, 88, 119, 0.7); */
+  background-color: rgb(173, 153, 184, 0.7);
 }
 
 .contact-list {
@@ -256,6 +257,10 @@ justify-content: end;
 
   .page-wrapper {
     padding: 15px;
+  }
+
+  .hero-wrapper {
+    padding: 10px;
   }
 
   .page-section {
